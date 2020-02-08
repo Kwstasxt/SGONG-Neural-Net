@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_Menu">
+
+    <Button
+        android:id="@+id/LoadImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/StartButton"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="25dp"
+
+        android:layout_marginTop="-1dp"
+        android:onClick="onclick_LoadImage"
+        android:text="Load Image"
+        tools:layout_editor_absoluteX="38dp"
+        tools:layout_editor_absoluteY="136dp" />
+
+
+    <Button
+        android:id="@+id/StartButton"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="78dp"
+        android:layout_marginEnd="15dp"
+        android:onClick="onClickStart"
+        android:text="Start"
+        tools:layout_editor_absoluteX="221dp"
+        tools:layout_editor_absoluteY="136dp"
+        tools:text="Start" />
+
+    <Button
+        android:id="@+id/SettingButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="52dp"
+        android:onClick="onClick"
+        android:text="Settings"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="264dp"
+        app:srcCompat="@drawable/ic_launcher_background" />
+
+    <TextView
+        android:id="@+id/PreviewText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="205dp"
+        android:lineSpacingExtra="10sp"
+        android:text="Preview Image"
+        android:textColor="@color/colorAccent"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/AddFeatureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:onClick="openFeatures"
+        android:text="Features" />
+
+    <TextView
+        android:id="@+id/TellColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="170dp"
+        android:textColor="@color/colorAccent"
+        android:textSize="22dp"
+        android:textStyle="bold" />
+        android:text="TextView" />
+
+</RelativeLayout>
