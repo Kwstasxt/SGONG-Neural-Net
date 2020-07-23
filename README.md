@@ -10,3 +10,7 @@ Images
 
 <img src="./Final_Image.jpg" alt="Final Image" width="400px" height="600px"> <img src="./Main_Screen.jpg" alt="Main Menu" width="400px" height="600px">
 
+3. Additional features menu screen
+4. Parameter settings screen
+
+<img src="./Additional_Features_Menu.jpg" alt="Final Image" width="400px" height="600px"> <img src="./Settings_Menu.jpg" alt="Main Menu" width="400px" height="600px">
